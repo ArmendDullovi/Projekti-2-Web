@@ -75,3 +75,42 @@ if (isset($_POST['submit_login'])) {
             <div class="col-lg-12 login-title">
                ADMIN PANEL
             </div>
+            <?php foreach ($errors as $error) : ?>
+               <div class="alert alert-danger" role="alert">
+                  <?php echo $error; ?>
+               </div>
+            <?php endforeach; ?>
+
+            <div class="col-lg-12 login-form">
+               <div class="col-lg-12 login-form">
+                  <form method="POST">
+                     <div class="form-group">
+                        <label class="form-control-label">EMAIL</label>
+                        <input type="text" name="email" class="form-control">
+                     </div>
+                     <div class="form-group">
+                        <label class="form-control-label">PASSWORD</label>
+                        <input type="password" name="password" class="form-control" i>
+                     </div>
+
+                     <div class="col-lg-12 loginbttm">
+                        <div class="col-lg-6 login-btm login-text">
+                           <!-- Error Message -->
+                        </div>
+                        <div class="col-lg-12 loginbttm">
+                           <button type="submit" name="submit_login" class="btn btn-outline-primary w-100">LOGIN</button>
+                        </div>
+                     </div>
+                  </form>
+
+                  <a href="signup.php" class="btn btn-outline-primary my-2 w-100">
+                     REGISTER
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-2"></div>
+         </div>
+      </div>
+</body>
+
+</html>
