@@ -14,15 +14,8 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
+  
 
-  <!-- GOOGLE FONT -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
